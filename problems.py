@@ -35,3 +35,4 @@ for i in range(2, n + 1):
         print(i,end=" ")
 print("")
 
+#no.of_divisors
