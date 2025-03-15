@@ -25,3 +25,13 @@ for i in range(1,n+1):
 print(f)
 
 #prime_number
+n = int(input("n "))
+for i in range(2, n + 1):
+    f = 0
+    for j in range(2, i):
+        if i % j == 0:
+            f = f + 1
+    if f == 0:
+        print(i,end=" ")
+print("")
+
